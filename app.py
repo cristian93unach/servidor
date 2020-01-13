@@ -56,7 +56,7 @@ class myHandler(BaseHTTPRequestHandler):
 				self.end_headers()
 				
 				try:
-					self.wfile.write('hola mundo server 1')
+					self.wfile.write('hola mundo')
 				except:
 					self.wfile.write(bytes('hola mundo', 'UTF-8'))
 				
